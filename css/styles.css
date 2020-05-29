@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+   margin: 0;
+}
+
+img {
+   max-width: 19vw;
+   max-height: 19vw;
+   margin-bottom: 12px;
+}
+
+.sidebar{
+   position: fixed;
+   width: 20%;
+   top:0;
+   left: 0;
+   bottom: 0;
+   background: #232931;
+   padding-top: 50px;
+   text-align: center;
+
+}
+
+.sidebar li{
+   display: block;
+   padding: 10px;
+   color: #f2f6f5;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+.sidebar a{
+   color: #f2f6f5;
+   padding: 5px;
+}
+
+.sidebar li:hover, a:hover{
+   color: white;
+   transition: 0.1s;
+}
+
+
+.content{
+   width: 80%;
+   float: right;
+   margin-bottom: 20px;
+}
+
+.card {
+   margin-top: 20px;
+   background-color: #eeeeee;
+}
+
+@media (max-width: 768px) {
+   /* phones */
+   body{
+      background-color: #232931;
+   }
+
+   img {
+      max-width: 30vw;
+      max-height: 30vw;
+   }
+
+   .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin-left: 0;
+        padding-top: 15px;
+    }
+
+    .sidebar li{
+      padding: 5px;
+    }
+
+    
+   .sidebar a{
+      font-size:6vw;
+   }
+
+   .content {
+      width: 100%;
+      margin-left: 0;
+      float: left;
+   }
+
+
+}
+
+@media (min-width: 768px) {
+   /* tablets and desktop */ 
+   body{
+      background-color: #393e46;
+   }
+
+   h2{
+      font-size:2.5vw;
+   }
+
+   .sidebar{
+      font-size:1.1vw;
+   }
+
+   .sidebar a{
+      font-size:1.75vw;
+   }
+
+}
