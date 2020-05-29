@@ -7,4 +7,4 @@ Currently work in progress
 
 Source code is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
 
-Contents of this site are © Copyright Ryan Chang. All rights reserved.
+Contents of this site are © Copyright 2020 Ryan Chang. All rights reserved.
