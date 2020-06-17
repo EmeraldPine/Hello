@@ -5,17 +5,6 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-{/*
-  color palettes; colorhunt.co
-  #232931
-  #393e46
-  #4ecca3
-  #eeeeee
-
-
-*/}
-
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
